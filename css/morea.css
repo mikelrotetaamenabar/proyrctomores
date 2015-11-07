@@ -1,0 +1,3 @@
+/*CSS NUESTRO*/
+.navbar-nav {float: none !important; display: flex; justify-content: center}
+.botonera {position: fixed; display: block; right:0px; top: 30%;}
