@@ -1,3 +1,54 @@
 /*CSS NUESTRO*/
 .navbar-nav {float: none !important; display: flex; justify-content: center}
 .botonera {position: fixed; display: block; right:0px; top: 30%;}
+
+
+/**Nuevocss*/
+
+li a.overlaia {
+  /*display:none;*/  
+  opacity: 0;
+  width:100%; 
+  height:100%; 
+  position: absolute; 
+  top:0; 
+  right:0; 
+  background:url('../images/bg_trans_grey_70.png') 0 0 repeat; 
+  color:#fff; 
+  font-size:18px;
+}
+a.overlaia:hover {
+  color:#fff;
+  opacity: 1;
+}
+
+li a.overlaia span {
+  display:block; 
+  width: 100%; 
+  padding-top:70px; 
+  line-height: 45px; 
+}
+a {color:#999; margin: 0; padding: 0; outline:none; text-decoration: none;}
+a:link, a:visited {color:#999;}
+a:focus { 
+  outline: none;  
+}
+
+li {
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+    display: list-item;
+  
+    overflow: hidden;
+    position: relative;
+    text-align: center;
+}
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
