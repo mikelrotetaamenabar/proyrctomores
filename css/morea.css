@@ -5,6 +5,80 @@
 
 /**Nuevocss*/
 
+#flexa {
+  display: flex;
+  justify-content: space-between; 
+  flex-flow: row wrap;
+}
+#hueco {  
+  width: 310px; 
+}
+#logoa {  
+  width: 310px;    
+  height: 310px;
+  background-image: url('../images/imagen3.jpg');
+  background-repeat: no-repeat;
+  background-position:top;
+  overflow: hidden;
+  text-indent: -3000px; 
+}
+#signup {  
+  width: 310px;
+   
+}
+.nav {
+    clear: both;
+    border-top: 1px solid #071146;
+    border-bottom: 1px solid #071146;
+    padding: 13px 0 0 0;
+}
+.nav .nav_title {
+    color: #071146;
+    display: none;
+}
+.nav ul {
+    clear: both;
+    width: 100%;
+    display: block;
+    text-align: center;
+    position: relative;
+    padding: 0 0 13px 0;
+}
+
+ul.social{
+    display: inline-flex;   
+}
+ul.social li {
+    width: 20px;
+    height: 20px;
+    overflow: hidden;
+    text-indent: -3000px; 
+    margin-right: 10px;
+}
+ul.social li a {
+    display:block;
+    
+}
+a.social_tw {
+    background-image: url('../images/bg_header_sprite.png');
+    background-repeat: no-repeat;
+    background-position: 0 -40px;
+}
+a.social_fb {
+    background-image: url('../images/bg_header_sprite.png');
+    background-repeat: no-repeat;
+    background-position: 0 0;
+}
+.nav ul li {
+    display: inline-block;
+    width: 200px;
+}
+ol, ul, li {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
 li a.overlaia {
   /*display:none;*/  
   opacity: 0;
@@ -20,18 +94,20 @@ li a.overlaia {
 a.overlaia:hover {
   color:#fff;
   opacity: 1;
+  text-decoration:none;
 }
 
 li a.overlaia span {
   display:block; 
   width: 100%; 
   padding-top:70px; 
-  line-height: 45px; 
+  line-height: 45px;
+  background: url('../images/bg_price_dash.gif') 50% 100% no-repeat;
 }
-a {color:#999; margin: 0; padding: 0; outline:none; text-decoration: none;}
-a:link, a:visited {color:#999;}
-a:focus { 
-  outline: none;  
+#container header nav ul li a {color:#999 !important; margin: 0 !important; padding: 0 !important; outline:none !important; text-decoration: none !important;}
+#container header nav ul li a:link, #container header nav ul li a:visited {color:#999 !important;}
+#container header nav ul li a:focus { 
+  outline: none !important;  
 }
 
 li {
@@ -44,6 +120,13 @@ li {
     position: relative;
     text-align: center;
 }
+
+<!--Contenido-->
+
+div#edukia.clearfix {
+  width:100% !important; 
+  padding: 50px 50px 50px 50px !important;
+}
 .clearfix:after {
     content: ".";
     display: block;
@@ -51,4 +134,22 @@ li {
     visibility: hidden;
     line-height: 0;
     height: 0;
+}
+div#edukia.clearfix ul {
+  width:100%; 
+  clear:both; 
+  list-style:none; 
+  padding:0; 
+  margin:0;  
+}
+div#edukia.clearfix ul li{
+  clear:both; 
+  width:318px; 
+  float:left; 
+  display:inline; 
+  margin-bottom: 8px; 
+  list-style:none; 
+  overflow: hidden; 
+  position: relative; 
+  text-align: center;
 }
