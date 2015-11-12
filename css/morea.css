@@ -56,8 +56,7 @@ ul.social li {
     margin-right: 10px;
 }
 ul.social li a {
-    display:block;
-    
+    display:block;    
 }
 a.social_tw {
     background-image: url('../images/bg_header_sprite.png');
@@ -82,8 +81,8 @@ ol, ul, li {
 li a.overlaia {
   /*display:none;*/  
   opacity: 0;
-  width:100%; 
-  height:100%; 
+  width: 318px; 
+  height: 214px; 
   position: absolute; 
   top:0; 
   right:0; 
@@ -114,11 +113,7 @@ li {
     overflow: hidden;
     position: relative;
     text-align: center;
-    display: list-item;
-  
-    overflow: hidden;
-    position: relative;
-    text-align: center;
+    display: list-item;  
 }
 
 <!--Contenido-->
