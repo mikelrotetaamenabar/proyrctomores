@@ -1,15 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html>
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-    <title>Floristería</title>
-
-   
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/morea.css" REL="stylesheet" TYPE="text/css">
+    <title>Floristería</title>  
+   <!-- <link href="css/bootstrap.min.css" rel="stylesheet">-->
+    <link rel="stylesheet" href="css/morea.css">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -54,29 +52,36 @@
 				    </ul>
       </div>
   </header>
+  <!--Menu lateral justo debajo debajo del header-->
+  <ul class="lateral">
+    <li><span class="ico usuario"><a><img alt="usuarios" src="images/blank.gif"></a></span></li>
+    <li><span><a><img alt="búsqueda" src="images/blank.gif"></a></span></li>
+    <li></li>
+    <li></li>
+  </ul>
   <!--Comienza el div del contenido-->
   <div id="edukia" class="clearfix">
     <!--Lista de categorias-->
     <ul>
-      <li>
+      <li class="imag">
         <a href="#" title="Temporada"><img src="images/imagen6.jpg" alt="Temporada" width="318" height="210"></a>
         <a href="#" title="Temporada" class="overlaia">
           <span>Temporada</span>
         </a>
       </li>
-      <li>
+      <li class="imag">
         <a href="#" title="Temporada"><img src="images/imagen6.jpg" alt="Temporada" width="318" height="210"></a>
         <a href="#" title="Temporada" class="overlaia">
           <span>Temporada</span>
         </a>
       </li>
-      <li>
+      <li class="imag">
         <a href="#" title="Temporada"><img src="images/imagen6.jpg" alt="Temporada" width="318" height="210"></a>
         <a href="#" title="Temporada" class="overlaia">
           <span>Temporada</span>
         </a>
       </li>
-      <li>
+      <li class="imag">
         <a href="#" title="Temporada"><img src="images/imagen6.jpg" alt="Temporada" width="318" height="210"></a>
         <a href="#" title="Temporada" class="overlaia">
           <span>Temporada</span>
@@ -85,10 +90,10 @@
     </ul> 
   <!--Descripcion de la tienda-->
     <ul>
-      <li class="listadesc"><h2>Shop Online</h2></li>
-      <li class="listadesc"><p>Welcome to our online store. Our exclusive ranges of beautiful bouquets are all handmade in our design studio. We offer same day delivery in London or next day delivery nationwide.<br>
+      <li class="desc"><h2>Shop Online</h2></li>
+      <li class="desc"><p>Welcome to our online store. Our exclusive ranges of beautiful bouquets are all handmade in our design studio. We offer same day delivery in London or next day delivery nationwide.<br>
         Our bouquets are styled using the very finest fresh flowers and are delicately wrapped in our signature packaging.</p></li>
-      <li class="listadesc">Each bouquet is presented in either our luxury bag or delivered in our flower box, and includes a personalised hand-written card.<br>Browse our collections for inspiration or call us if you need help, Tel. +44 (0) 20 3130 9219.</li>
+      <li class="desc"><p>Each bouquet is presented in either our luxury bag or delivered in our flower box, and includes a personalised hand-written card.<br>Browse our collections for inspiration or call us if you need help, Tel. +44 (0) 20 3130 9219.</p></li>
     </ul>    
   </div>
 <!--
@@ -96,8 +101,16 @@
 include "body.php";
 ?>
 -->
-   <footer>
-   <h1>SOY UN FOOTER</h1>
+   <footer>     
+       
+     <div class="copia"><p>Copyright &copy; 2015 Floristeria morea<br>Design by <a href="@" target="_blank">Company</a></p>     
+     </div>
+     
+     <h1 class="logo"> 
+        <div id="logofoot">
+         <a href="http://localhost/proyectomorea/floristeriamorea/Inicio.html">Floristeria Morea</a>
+        </div>
+      </h1>
     </footer>
 
     </div>

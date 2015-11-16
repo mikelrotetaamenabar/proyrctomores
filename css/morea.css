@@ -1,13 +1,13 @@
 /*CSS NUESTRO*/
 @import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:400,600,300);
-body {font-family: source sans pro; font-size: 400}
-a{color: rgb(216,140,234); text-decoration: none !important; font-weight: 600}
-.navbar-nav {float: none !important; display: flex; justify-content: center}
+body {font-family: source sans pro; font-size: 400;}
+a{color: rgb(216,140,234); text-decoration: none !important; font-weight: 600; }
+.navbar-nav {float: none !important; display: flex; justify-content: center;}
 .botonera {position: fixed; display: block; right:0px; top: 30%;}
 
 
 /**Nuevocss*/
-h1.logo {text-align: center}
+h1.logo {text-align: center;}
 #flexa {
   display: flex;
   justify-content: space-between; 
@@ -25,15 +25,14 @@ h1.logo {text-align: center}
   overflow: hidden;
   text-indent: -3000px; 
   background-size: contain;
-      margin: 0px auto;
+  margin: 0px auto;
 
 }
 #signup {  
   width: 310px;
   position: absolute;
   right: 0px;
-  top: 0px
-   
+  top: 0px;   
 }
 .nav {
     clear: both;
@@ -53,7 +52,6 @@ h1.logo {text-align: center}
     position: relative;
     padding: 0 0 13px 0;
 }
-
 ul.social{
     display: inline-flex;   
 }
@@ -111,8 +109,7 @@ li a.overlaia span {
   display:block; 
   width: 100%; 
   padding-top:70px; 
-  line-height: 45px;
-  background: url('../images/bg_price_dash.gif') 50% 100% no-repeat;
+  line-height: 45px;  
 }
 #container header nav ul li a {color:#999 !important; margin: 0 !important; padding: 0 !important; outline:none !important; text-decoration: none !important;}
 #container header nav ul li a:link, #container header nav ul li a:visited {color:#999 !important;}
@@ -127,10 +124,9 @@ li {
     display: list-item;  
 }
 
-<!--Contenido-->
+/*Contenido*/
 
-div#edukia.clearfix {
-  width:100% !important; 
+div#edukia.clearfix {   
   padding: 50px 50px 50px 50px !important;
 }
 .clearfix:after {
@@ -144,8 +140,7 @@ div#edukia.clearfix {
 div#edukia.clearfix ul {
   padding: 50px 50px 50px 50px;
   margin: 0;
-  list-style: none;
-  
+  list-style: none;  
   display: -webkit-box;
   display: -moz-box;
   display: -ms-flexbox;
@@ -153,19 +148,105 @@ div#edukia.clearfix ul {
   display: flex; 
   flex-wrap: wrap;
   justify-content: center;
+  align-content: flex-start;
   /*-webkit-flex-flow: row wrap;
   justify-content: space-around; */
 }
-div#edukia.clearfix ul li{
+div#edukia.clearfix ul li.imag{
   clear:both; 
   width:318px;   
   margin-bottom: 8px; 
   list-style:none; 
-  overflow: hidden; 
-
+  overflow: hidden;
   text-align: center;
-margin: 4px 4px 4px 4px;
+  margin: 4px 4px 4px 4px;
 }
-.listadesc {
+div#edukia.clearfix ul li.desc {
+  clear:both; 
+  width:424px;   
+  margin-bottom: 8px; 
+  list-style:none; 
+  overflow: hidden;
+  text-align: left;
+  margin: 4px 4px 4px 4px;  
+}
+.copia {
+  left: 20px;
+  vertical-align: bottom;
+  position: absolute;
+}
+
+/* Estilos del footer*/
+footer {
+  border-top: 1px solid #071146;
+  vertical-align: middle
+}
+
+#logofoot {
+    width: 310px;    
+    height20200px;
+    background-image: url('../images/logo.jpg');
+    background-repeat: no-repeat;
+    background-position:top;
+    overflow: hidden;
+    text-indent: -3000px; 
+    background-size: contain;
+    margin: 0px auto; }
+}
+/*Estilos del menu zona derecha*/
+
+
+.ico {
+  background-color: #494847;
+  position: absolute;
+  height: 8em;
+  line-height: 8em;
+  width: 5.9em;
+  display: inline-block;
+  text-align: center;
+}
+
+.ico a {
+  width: 100%;
+  height: 100%;
+  color: #494847;
+  background-color: #494847;
+}
+
+
+.ico a img {
+  background-image: url(/images/icons_40x40_ffffff.png);
+  opacity: 0.95;
+  background-position: 10% 0;
+  width: 4em;
+  height: 4em;
+  position: relative;
+  cursor: pointer;
+  color: inherit;
+}
+
+.lateral {
+  display: block;
+  list-style-type: disc;
+}
+
+.lateral li {
   
+}
+
+.ico span {
+  position: absolute;  
+  background-color: #494847;
+}
+
+.lateral ul {
+  display: block;  
+}
+
+.usuario {  
+  position: absolute;
+  background-color: #494847;
+  height: 8rem;
+  line-height: 8em;
+  width: 5.9rem;
 }
